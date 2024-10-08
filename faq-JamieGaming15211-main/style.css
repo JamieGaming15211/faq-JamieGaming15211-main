@@ -3,11 +3,14 @@
 }
 
 h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   border-style: solid;
-  border-color: #7fff00;
-  background-color: #7fff00;
+  background-color: #800080;
   border-radius: 15px;
   text-align: center;
+}
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 body {
   background-color: aqua;
@@ -16,31 +19,25 @@ body {
 }
 
 p {
+  font-family: sans-serif;
+  border-style: solid;
+
+  border-radius: 15px;
+  font-size: 25px;
   max-width: 80ch;
 }
 
-p2 {
-  border-style: solid;
-  border-color: #7fff00;
-  background-color: #7fff00;
-  border-radius: 15px;
-  font-size: 25px;
+.answers {
+  background-color: #00ff00;
+  padding: 1rem;
+  margin: 0;
+  transition: 0.2s;
 }
 
-p3 {
-  border-style: solid;
-  border-color: #7fff00;
-  background-color: #7fff00;
-  border-radius: 15px;
-  font-size: 25px;
-}
-
-p4 {
-  border-style: solid;
-  border-color: #7fff00;
-  background-color: #7fff00;
-  border-radius: 15px;
-  font-size: 25px;
+.closed-answer {
+  max-height: 0;
+  padding: 0 1rem;
+  overflow: hidden;
 }
 
 img {
